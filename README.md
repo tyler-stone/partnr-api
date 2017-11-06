@@ -2,6 +2,8 @@
 ### Get Seriously Creative
 Partnr is an online platform for students to showcase their work from hobby projects, school projects, and internships. Through our platform, we offer robust project management tools to help foster efficient group work while also enabling students to build impressive, credible portfolios. Students can create projects and tasks, and work with team members to complete important project milestones. As students complete tasks, they will propagate on that user’s profile and he will acquire the associated skills. With Partnr, you’ll never have to spend time updating your portfolio - your portfolio will update automatically as you develop your skillset.
 
+Source collaborators: Tyler Stone, Ryan Baker, Tim Marschall
+
 
 ## Set up the environment
 to set up the environment for development you must have Virtualbox and Vagrant installed
