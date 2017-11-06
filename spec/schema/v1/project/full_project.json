@@ -1,0 +1,59 @@
+{
+  "title" : "Full Project Schema",
+  "description" : "A project object model",
+  "type" : "object",
+  "properties" : {
+    "title" : {
+      "type" : "string"
+    },
+    "description" : {
+      "type" : ["string", "null"]
+    },
+    "status" : {
+      "type" : "string"
+    },
+    "creator" : {
+      "type" : "integer"
+    },
+    "owner" : {
+      "type" : "object"
+    },
+    "id" : {
+      "type" : "integer"
+    },
+    "applications" : {
+      "type" : "array",
+      "items" : {
+        "type" : "object"
+      }
+    },
+    "roles" : {
+      "type" : "array",
+      "items" : {
+        "type" : "object"
+      }
+    },
+    "benchmarks" : {
+      "type" : "array",
+      "items" : {
+        "type" : "object"
+      }
+    },
+    "comments" : {
+      "type" : "array",
+      "items" : {
+        "type" : "object"
+      }
+    }
+  },
+  "required" : [
+    "title",
+    "owner",
+    "creator",
+    "status",
+    "roles",
+    "comments",
+    "benchmarks",
+    "id"
+  ]
+}

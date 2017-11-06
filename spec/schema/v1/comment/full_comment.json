@@ -1,0 +1,29 @@
+{
+  "title" : "Full Comment Schema",
+  "description" : "A comment object model",
+  "type" : "object",
+  "properties" : {
+    "content" : {
+      "type" : "string"
+    },
+    "project" : {
+      "type" : "object"
+    },
+    "user" : {
+      "type" : "object"
+    },
+    "created_at" : {
+      "type" : "string"
+    },
+    "id" : {
+      "type" : "integer"
+    }
+  },
+  "required" : [
+    "project",
+    "created_at",
+    "user",
+    "content",
+    "id"
+  ]
+}

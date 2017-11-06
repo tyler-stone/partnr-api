@@ -1,0 +1,17 @@
+<link href='https://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" media="all" href="<%= Rails.application.config.host %>/assets/_bootstrap.css" />
+<link rel="stylesheet" media="all" href="<%= Rails.application.config.host %>/assets/email.css" />
+
+<div class="container text-center" id="welcome">
+  <%= render "shared/email/header" %>
+
+  <p>Welcome <%= @resource.first_name %>!</p>
+
+  <p>You can confirm your account email through the link below:</p>
+
+  <div class="btn btn-primary">
+    <%= link_to 'Confirm my account', confirmation_url(@resource, confirmation_token: @token) %>
+  </div>
+
+  <%= render "shared/footer" %>
+</div>

@@ -1,0 +1,17 @@
+{
+  "title" : "Nested Role Schema",
+  "description" : "A role object model",
+  "type" : "object",
+  "properties" : {
+    "title" : {
+      "type" : "string"
+    },
+    "id" : {
+      "type" : "integer"
+    }
+  },
+  "required" : [
+    "title",
+    "id"
+  ]
+}

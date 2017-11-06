@@ -1,0 +1,36 @@
+{
+  "title" : "Signup Response",
+  "description" : "A response from signing up",
+  "properties" : {
+    "id" : {
+      "type" : "integer"
+    },
+    "first_name" : {
+      "type" : "string"
+    },
+    "last_name" : {
+      "type" : "string"
+    },
+    "email" : {
+      "type" : "string"
+    },
+    "created_at" : {
+      "type" : "string"
+    },
+    "updated_at" : {
+      "type" : "string"
+    },
+    "authentication_token" : {
+      "type" : "string"
+    }
+  },
+  "required" : [
+    "first_name",
+    "last_name",
+    "email",
+    "id",
+    "updated_at",
+    "created_at",
+    "authentication_token"
+  ]
+}

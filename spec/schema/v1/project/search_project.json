@@ -1,0 +1,32 @@
+{
+  "title" : "Search Project Schema",
+  "description" : "A project object model",
+  "type" : "object",
+  "properties" : {
+    "title" : {
+      "type" : "string"
+    },
+    "description" : {
+      "type" : ["string", "null"]
+    },
+    "status" : {
+      "type" : "string"
+    },
+    "users" : {
+      "type" : "array"
+    },
+    "comments" : {
+      "type" : "array"
+    },
+    "id" : {
+      "type" : "integer"
+    }
+  },
+  "required" : [
+    "title",
+    "users",
+    "status",
+    "comments",
+    "id"
+  ]
+}

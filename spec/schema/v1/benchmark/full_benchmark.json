@@ -1,0 +1,40 @@
+{
+  "title" : "Full Benchmark Schema",
+  "description" : "A benchmark object model",
+  "type" : "object",
+  "properties" : {
+    "title" : {
+      "type" : "string"
+    },
+    "project" : {
+      "type" : "object"
+    },
+    "complete" : {
+      "type" : "boolean"
+    },
+    "due_date" : {
+      "type" : ["string", "null"]
+    },
+    "created_at" : {
+      "type" : "string"
+    },
+    "posts" : {
+      "type" : "array"
+    },
+    "creator" : {
+      "type" : "object"
+    },
+    "id" : {
+      "type" : "integer"
+    }
+  },
+  "required" : [
+    "title",
+    "project",
+    "complete",
+    "created_at",
+    "posts",
+    "creator",
+    "id"
+  ]
+}

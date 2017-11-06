@@ -1,0 +1,57 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'notification.Application.created'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('notification.Application.created') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+en:
+  notification:
+    Application:
+      created: "applied to the role {role} on the project {project}"
+      updated: "updated the application for the role {role} on the project {project}"
+    Bmark:
+      created: "created the milestone {milestone} for the project {project}"
+      updated: "updated the milestone {milestone} for the project {project}"
+    Comment:
+      created: "commented on the project {project}"
+      updated: "edited their comment on the project {project}"
+    Post:
+      created: "posted {post} to the benchmark {milestone}"
+      updated: "edited their post {post} on the benchmark {milestone}"
+    Project:
+      created: "created the project {project}"
+      updated: "edited their project {project}"
+    Role:
+      created: "created the role {role} for the project {project}"
+      updated: "edited the role {role} for the project {project}"
+    Task:
+      created: "created the task {task} for the project {project}"
+      updated: "updated the task {task} for the project {project}"
+  activity:
+    role:
+      accepted: "{user_name} was accepted to the role {role_title}"
+    connection:
+      accepted: "{user_name} connected with {connection_name}"
+    task:
+      completed: "{user_name} completed the task {task_title} on {project_title}"
+    benchmark:
+      completed: "{user_name} marked the milestone {milestone_title} as complete"
+    project:
+      create: "created a new project: {project_title}"
+      status_change: "{user_name} marked {project_title} as {project_status}"
+      started: "{user_name} started a new project: {project_title}"

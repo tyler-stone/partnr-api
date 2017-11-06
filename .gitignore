@@ -1,0 +1,30 @@
+# Ignore bundler config.
+/.bundle
+
+# ignore the doc files
+doc/
+
+# Ignore all logfiles and tempfiles.
+/log/*.log
+/tmp
+
+# ignore the installed rspec files
+rspec:install
+
+# ignore the vagrant files
+.vagrant/
+
+# Ignore .DS_Store files
+*DS_Store
+
+# ignore test coverage files
+coverage
+
+# ignore bower_components
+/vendor/assets/bower_components
+
+# ignore compiled assets
+public/assets
+
+node_modules
+.byebug_history

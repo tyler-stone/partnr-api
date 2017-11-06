@@ -1,0 +1,25 @@
+{
+  "title" : "Search Comment Schema",
+  "description" : "A comment object model",
+  "type" : "object",
+  "properties" : {
+    "content" : {
+      "type" : "string"
+    },
+    "user" : {
+      "type" : "object"
+    },
+    "created_at" : {
+      "type" : "string"
+    },
+    "id" : {
+      "type" : "integer"
+    }
+  },
+  "required" : [
+    "created_at",
+    "user",
+    "content",
+    "id"
+  ]
+}

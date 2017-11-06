@@ -1,0 +1,21 @@
+{
+  "title" : "Search Post Schema",
+  "description" : "A post object model",
+  "type" : "object",
+  "properties" : {
+    "title" : {
+      "type" : "string"
+    },
+    "content" : {
+      "type" : "string"
+    },
+    "id" : {
+      "type" : "integer"
+    }
+  },
+  "required" : [
+    "title",
+    "content",
+    "id"
+  ]
+}

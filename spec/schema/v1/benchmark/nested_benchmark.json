@@ -1,0 +1,29 @@
+{
+  "title" : "Nested Benchmark Schema",
+  "description" : "A benchmark object model",
+  "type" : "object",
+  "properties" : {
+    "title" : {
+      "type" : "string"
+    },
+    "complete": {
+      "type" : "boolean"
+    },
+    "due_date" : {
+      "type" : ["string", "null"]
+    },
+    "created_at" : {
+      "type" : "string"
+    },
+    "id" : {
+      "type" : "integer"
+    }
+  },
+  "required" : [
+    "title",
+    "complete",
+    "due_date",
+    "created_at",
+    "id"
+  ]
+}

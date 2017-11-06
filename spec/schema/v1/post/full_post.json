@@ -1,0 +1,29 @@
+{
+  "title" : "Full Post Schema",
+  "description" : "A post object model",
+  "type" : "object",
+  "properties" : {
+    "title" : {
+      "type" : "string"
+    },
+    "benchmark" : {
+      "type" : "object"
+    },
+    "user" : {
+      "type" : "object"
+    },
+    "content" : {
+      "type" : "string"
+    },
+    "id" : {
+      "type" : "integer"
+    }
+  },
+  "required" : [
+    "title",
+    "benchmark",
+    "user",
+    "content",
+    "id"
+  ]
+}

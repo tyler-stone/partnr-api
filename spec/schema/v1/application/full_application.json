@@ -1,0 +1,25 @@
+{
+  "title" : "Full Application Schema",
+  "description" : "An application object model",
+  "type" : "object",
+  "properties" : {
+    "status" : {
+      "enum" : ["pending", "accepted"]
+    },
+    "id" : {
+      "type" : "integer"
+    },
+    "role" : {
+      "type" : "object"
+    },
+    "user" : {
+      "type" : "object"
+    }
+  },
+  "required" : [
+    "status",
+    "id",
+    "role",
+    "user"
+  ]
+}

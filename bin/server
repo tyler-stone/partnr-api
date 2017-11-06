@@ -1,0 +1,1 @@
+RAILS_ENV=local local=true rails s -b 0.0.0.0

@@ -1,0 +1,17 @@
+{
+  "title" : "Nested Post Schema",
+  "description" : "A post object model",
+  "type" : "object",
+  "properties" : {
+    "title" : {
+      "type" : "string"
+    },
+    "id" : {
+      "type" : "integer"
+    }
+  },
+  "required" : [
+    "title",
+    "id"
+  ]
+}

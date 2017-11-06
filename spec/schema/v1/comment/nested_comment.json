@@ -1,0 +1,21 @@
+{
+  "title" : "Nested Comment Schema",
+  "description" : "A comment object model",
+  "type" : "object",
+  "properties" : {
+    "content" : {
+      "type" : "string"
+    },
+    "created_at" : {
+      "type" : "string"
+    },
+    "id" : {
+      "type" : "integer"
+    }
+  },
+  "required" : [
+    "created_at",
+    "content",
+    "id"
+  ]
+}
